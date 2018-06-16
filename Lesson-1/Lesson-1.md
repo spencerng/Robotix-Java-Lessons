@@ -117,7 +117,7 @@ To get started with Eclipse:
 
 If there are any syntax errors in your program, Eclipse will underline them in red, and the program will not run. Try fixing them by reading the error message and reviewing your code or by using Google.
 
-**A Brief Exercise**: Assign the values of `true`, `"Team"`, `"Raider Robotix"`, and `25` to variables. Use print statements with the variables and literal values to generate the output
+**A Brief Exercise**: Assign the values of `true`, `"Raider Robotix"`, and `25` to variables. Use print statements with the variables and literal values to generate the output
 
     Hello World!
     It is true that I am on Team 25, Raider Robotix
@@ -163,7 +163,11 @@ while executing
 will output
      
     Raider Robotix
-    
+
+**Exercise**
+
+* Write a program that allows the user to input a string, an integer, and a floating point number, then print all three once they are inputted.
+
 ## Operators
 Operators in Java allow you to interact between different datatypes.
 
@@ -190,9 +194,9 @@ Evaluating these operators will result in a number of type `int` if both are int
    * `a % b` is equal to `1`, `b % a` is equal to `4`, `a % c` is equal to `0.0`
    
 **Exercises**:
- * Write a program that allows the user to input dimensions of a square pyramid and outputs its surface area
- * Write a program that prints the day of the week of a day, given the day of the first day of the month
- * Write a program that calculates the score of a match in *FIRST* Steamworks, where the user inputs the number of rotors activated during tele-op/autonomous, high/low goals in tele-op/autonomous, the times the baseline was crossed, the times robots took off, and foul points
+ * Write a program that allows the user to input (integer) dimensions of a rectangular prism and outputs its surface area and volume
+ * Write a program that prints the day of the week of a day, given the day of the week of the first day of the month (where 1=Monday, 7=Sunday)
+ * Write a program that calculates the score of a match in *FIRST* Steamworks, where the user inputs the number of rotors activated during tele-op/autonomous, high/low goals in tele-op/autonomous, the times the baseline was crossed, the times robots took off, and foul points that were incurred by the opposing alliance
 
 ### Relational
 Evaluating these operators will result in a boolean value (`true` or `false`):
@@ -243,7 +247,7 @@ These operate on boolean values and evaluating them will also result in a boolea
 
 **Exercises**
 * Evaluate the following expressions (without actually writing any code) for when `a = true, b = false` and for when `a = true, b = true`:
-  * ` (a || b) && (!a || !b)`
+  * `(a || b) && (!a || !b)`
   * `!(a && !b) || (!a && b)`
   * `!(a && b)`
 

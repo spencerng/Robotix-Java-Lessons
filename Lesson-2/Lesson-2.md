@@ -3,7 +3,7 @@
 After a (probably pretty long) first lesson, let's explore a couple more features of Java and see what you can do with everything that you learned.
 
 ## Loops
-Loops are used to execute a **block** of code multiples times. The number of times a block executes depends on a boolean expression.
+Loops are used to execute a **block** of code enclosed in a set of braces (`{}`) multiple times. The number of times a block executes depends on a boolean expression.
 
 ### `while` Loops
 `while` loops execute as long as a boolean expression is `true`. It may not execute at all if the expression is `false` before entering the loop.
@@ -67,8 +67,9 @@ will print a (poorly formatted) times table.
 **Exercises**
 * Write a program that computes the sum of all odd integers from 1 to a number specified by the user
 * Write a program that computes b^e (a number raised to the power of an exponent), where `b` and `e` are positive integers
-* Write a program that allows the user to enter a number, `setSize`. `setSize` numbers, `num`, follow and are inputted by the user. Print the largest and smallest of the numbers.
-## String Manipulations and Methods
+* Write a program that allows the user to enter a number, `setSize`. `setSize` numbers, `num`, follow and are inputted by the user. Print the average, largest, and smallest of the numbers.
+
+## String Manipulation
 The `String` class in Java contains many methods to manipulate strings. We will present an overview of the most useful ones, though you may read the full documentation [here](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html).
 
 ### Concatenation
@@ -92,6 +93,7 @@ You may also concatenate a string onto the end of another with the `+=` operator
      System.out.println(s);
      
 will print `Hello World!`.
+
 ### String Properties
 You can check the length of a string (number of characters) with the `string.length()` method. Executing
 
@@ -104,14 +106,14 @@ will print
      Hello is 5 characters long
      6
      
-You can also check if a string contains a specific character sequence with the `string.contains(<character sequence>)` method, which returns a boolean value. If `String s = "Hello";` is declared, `s.contains("ell")` is `true`, while `s.contains("f")` is `false`.
+You can also check if a string contains a specific character sequence with the `string.contains(<character sequence>)` method, which returns a boolean value. If `String s = "Hello";` is declared, `s.contains("ell")` returns `true`, while `s.contains("f")` returns `false`.
 
 ### Parsing a String
-You may want to **parse** through a string sometimes, or check the sequence of its characters. The `string.charAt(/*index*/`) method will return the character currently at the index. There are two things you should know about the method:
+You may want to **parse** through a string sometimes, or check the sequence of its characters. The `string.charAt(/*index*/)` method will return the character currently at the index. There are two things you should know about the method:
 
 1. The method will return a value of type `char` (character), which is a primitive datatype. Characters are declared and assigned values with single quotation marks, like this:
 
-       char character = 'f', ampersand = '&';
+    char character = 'f', ampersand = '&';
 
  Their value may be compared with the equivalence (`==`) operator. For example, `character=='f'` is `true`.
 
@@ -121,6 +123,7 @@ You may want to **parse** through a string sometimes, or check the sequence of i
 * Write a program to reverse a string if it has an R in it.
 * Write a program to check if a string is a palindrome (reads the same backward as forward, such as racecar)
 * Write a program to replaces all commas from a string with semicolons
+
 ## The `Math` Class
 The `Math` class contains several methods that you may find helpful. It is imported by default, and documentation is found [here](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html).
 
@@ -135,7 +138,7 @@ For these examples, we will declare `double a = 4.5, b = -2.5`;
 **Exercises**
 * Write a program that solves quadratic equations of the form 0=ax^2+bx+c for x, where a, b, and c are coefficients given by the user
 * Write a program that calculates the average of a data set, given the numbers in the set and its length
-* Write a program to find the volume of a sphere, given its dimensions
+* Write a program to find the surface area and volume of a square pyramid, given its side length and height
 * Write a program to round a number to a specific number of decimal places
 
 # Assignment
