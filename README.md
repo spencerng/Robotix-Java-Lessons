@@ -6,7 +6,7 @@ The course is designed to take place around the year, with 8 lessons covering th
 
 ## Lesson Outlines
 
-1. [Introduction to Java](/Lesson-1/Lesson-1.md)
+#### 1. [Introduction to Java](/Lesson-1/Lesson-1.md)
  * [Raider Robotix and Java](/Lesson-1/Lesson-1.md#raider-robotix-and-java)
  * [Java code structure](/Lesson-1/Lesson-1.md#Java-code-structure)
  * [Variables](/Lesson-1/Lesson-1.md#Variables)
@@ -22,7 +22,7 @@ The course is designed to take place around the year, with 8 lessons covering th
  * [Conditionals](/Lesson-1/Lesson-1.md#conditionals)
  * [HW: A School Day](/Lesson-1/Lesson-1.md#assignment)
 
-2. [Loops, Strings, and Math](/Lesson-2/Lesson-2.md)
+#### 2. [Loops, Strings, and Math](/Lesson-2/Lesson-2.md)
  * [Loops](/Lesson-2/Lesson-2.md#loops)
    * [`while` loops](/Lesson-2/Lesson-2.md#while-loops)
    * [`for` loops](/Lesson-2/Lesson-2.md#for-loops)
@@ -33,7 +33,7 @@ The course is designed to take place around the year, with 8 lessons covering th
  * [The `Math` class](/Lesson-2/Lesson-2.md#the-math-class)
  * [HW: Raider Robotix printer](/Lesson-2/Lesson-2.md#assignment)
 
-3. Methods
+#### 3. Methods
  * Why methods?
  * Method signature
    * Parameters
@@ -41,7 +41,7 @@ The course is designed to take place around the year, with 8 lessons covering th
  * Recursion
  * Algorithmic challenges
 
-4. Object Orientated Design
+#### 4. Object Orientated Design
  * Why objects?
  * Constructors
  * Member variables
@@ -50,7 +50,7 @@ The course is designed to take place around the year, with 8 lessons covering th
  * Scope
  * Visibility
 
-5. Arrays and HashMaps
+#### 5. Arrays and HashMaps
  * Arrays
    * Initialization
    * Printing
@@ -60,7 +60,7 @@ The course is designed to take place around the year, with 8 lessons covering th
  * Enums
  * HashMaps
 
-6. Advanced Java
+#### 6. Advanced Java
  * Exceptions
    * ArrayIndexOutOfBounds
    * Arithmetic
@@ -72,13 +72,13 @@ The course is designed to take place around the year, with 8 lessons covering th
    * `throws`
  * Debugging in Eclipse
 
-7. Advanced OOP
+#### 7. Advanced OOP
  * Polymorphism
  * Inheritence
  * Interfaces
  * `extends`, `this`, `super`
 
-8. Open Source Tools
+#### 8. Open Source Tools
  * What is a VCS?
  * Git and GitHub
    * Committing, pushing, pulling
@@ -92,7 +92,7 @@ The course is designed to take place around the year, with 8 lessons covering th
 
 ### Scouting system
 
-9. The Blue Alliance API and HTTP
+#### 9. The Blue Alliance API and HTTP
  * Reading documentation
  * Documentation
  * About HTTP
@@ -105,7 +105,7 @@ The course is designed to take place around the year, with 8 lessons covering th
    * Open source maintenance
 
 
-10. The JDK
+#### 10. The JDK
  * Java Swing
    * Frames
    * Buttons
@@ -118,7 +118,7 @@ The course is designed to take place around the year, with 8 lessons covering th
    * Regex
 
 
-11. Android: App structure and GUI basics
+#### 11. Android: App structure and GUI basics
  * Android Studio
    * Manifest file
    * Resource files
@@ -132,7 +132,7 @@ The course is designed to take place around the year, with 8 lessons covering th
  * Android SDK - interfacing in Java
  * Activities/Fragments
 
-12. Android: Advanced techniques
+#### 12. Android: Advanced techniques
  * UX and material design
  * Debugging
  * Generating and signing APKs
@@ -142,7 +142,7 @@ The course is designed to take place around the year, with 8 lessons covering th
  * Preferences
  * Creating custom views
 
-13. Kickoff!
+#### 13. Kickoff!
  * Dissecting a new game
    * Metrics
    * Quick comments
@@ -159,7 +159,7 @@ The course is designed to take place around the year, with 8 lessons covering th
    * TBA score breakdowns
    * Fixing scouting inaccuracies
 
-14. Competitions and Scout Training
+#### 14. Competitions and Scout Training
  * Excel and Google Sheets
  * Knowledge assessments
  * Skill assessments
