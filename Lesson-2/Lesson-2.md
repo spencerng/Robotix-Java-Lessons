@@ -71,6 +71,40 @@ will print a (poorly formatted) times table.
 * Write a program that computes b^e (a number raised to the power of an exponent), where `b` and `e` are positive integers
 * Write a program that allows the user to enter a number, `setSize`. `setSize` numbers, `num`, follow and are inputted by the user. Print the average, largest, and smallest of the numbers.
 
+## Characters
+
+In addition to the primitive data types (`boolean`, `int`, `double`) we learned about before, `char`s represent one of the 256 [ASCII characters](https://www.asciitable.com/). These include the numbers, standard symbols and punctuation on a keyboard, and both uppercase and lowercase letters. A `char` is assigned a value with the declaration
+
+    char allianceColor = 'R';
+
+Note the use of single quotation marks rather than double quotation marks (which are used for `String`s) and that a variable of type `char` may only contain a single character. 
+
+**Escape characters** are the first 32 ASCII characters, which serve special functions. The most commonly used is `'\n'`, which creates a line break. In addition, quotation marks must be escaped. Thus, executing the following code
+
+    char quote1 = '\'';
+    char quote2 = '\"';
+    char newLine = '\n'
+    System.out.print(quote1);
+    System.out.print(newLine);
+    System.out.print(quote2);
+
+will print
+
+    '
+    "
+
+Note that strings can be thought of as a series of `char`s concatenated together. For instance, executing
+
+    String someText = "Kickoff, 2017\nAs we anticipated the new game, the livestream blared, \"STEAM POWERED! STEAM POWERED! STEAM POWERED!\"";
+    System.out.println(someText);
+
+will print
+
+    Kickoff, 2017
+    As we anticipated the new game, the livestream blared, "STEAM POWERED! STEAM POWERED! STEAM POWERED!"
+
+The value of characters may be compared with the equivalence (`==`) operator. For example, `allianceColor=='R'` is `true`. Note, however, that a character is not equal its `int` equivalent. That is, `'1'==1` is `false`.
+
 ## String Manipulation
 The `String` class in Java contains many methods to manipulate strings. We will present an overview of the most useful ones, though you may read the full documentation [here](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html).
 
@@ -96,6 +130,7 @@ You may also concatenate a string onto the end of another with the `+=` operator
      
 will print `Hello World!`.
 
+
 ### String Properties
 You can check the length of a string (number of characters) with the `string.length()` method. Executing
 
@@ -113,13 +148,17 @@ You can also check if a string contains a specific character sequence with the `
 ### Parsing a String
 You may want to **parse** through a string sometimes, or check the sequence of its characters. The `string.charAt(/*index*/)` method will return the character currently at the index. There are two things you should know about the method:
 
-1. The method will return a value of type `char` (character), which is a primitive datatype. Characters are declared and assigned values with single quotation marks, like this:
-
-    char character = 'f', ampersand = '&';
-
- Their value may be compared with the equivalence (`==`) operator. For example, `character=='f'` is `true`.
+1. The method will return a value of type `char` (character), rather than `String`.
 
 2. The index is a value that is greater than *or equal to* 0 and *less than* `string.length()`. That is, the index of the first character in the string is `0`, and the index of the last character in the string is `string.length()-1`. If `String s = "World";` is declared, `s.charAt(0)` returns `'W'`, `s.charAt(3)` returns `'l'`, and `s.charAt(4)` returns `'d'`.
+
+A standard way to parse through all of the characters of a string is with the following `for` loop:
+
+    String str = "Hello World!";
+    for(int i = 0; i < str.length(); i++){
+        char currentChar = str.charAt(i);
+        //Do something here
+    }
 
 **Exercises**
 * Write a program to reverse a string if it has an R in it.

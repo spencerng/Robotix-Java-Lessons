@@ -26,6 +26,7 @@ The course is designed to take place around the year, with 8 lessons covering th
  * [Loops](/Lesson-2/Lesson-2.md#loops)
    * [`while` loops](/Lesson-2/Lesson-2.md#while-loops)
    * [`for` loops](/Lesson-2/Lesson-2.md#for-loops)
+ * [Characters](/Lesson-2/Lesson-2.md#characters)
  * [String manipulation](/Lesson-2/Lesson-2.md#string-manipulation)
    * [Concatenation](/Lesson-2/Lesson-2.md#concatenation)
    * [String properties](/Lesson-2/Lesson-2.md#string-properties)
@@ -33,11 +34,9 @@ The course is designed to take place around the year, with 8 lessons covering th
  * [The `Math` class](/Lesson-2/Lesson-2.md#the-math-class)
  * [HW: Raider Robotix printer](/Lesson-2/Lesson-2.md#assignment)
 
-#### 3. Methods
+#### 3. [Methods](/Lesson-3/Lesson-3.md)
  * Why methods?
  * Method signature
-   * Parameters
-   * Return types
  * Recursion
  * Algorithmic challenges
 
