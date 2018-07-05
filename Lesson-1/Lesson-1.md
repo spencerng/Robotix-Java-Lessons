@@ -166,7 +166,7 @@ will output
 
 **Exercise**
 
-* Write a program that allows the user to input a string, an integer, and a floating point number, then print all three once they are inputted.
+* Write a program that allows prompts a user to input a string, an integer, and a floating point number, then print all three once they are inputted.
 
 ## Operators
 Operators in Java allow you to interact between different datatypes.
@@ -214,7 +214,7 @@ Evaluating these operators will result in a boolean value (`true` or `false`):
    * `a!=5` is `false`, `1!=a/c` is `true`
    * `false != true` is `true`
 
-**Exercise**: Write a program to determine if it is true that a quadratic equation of the form 0=ax^2+bx+c has a real solution, where the user inputs a, b, and c.
+**Exercise**: Write a program to determine if it is true that a quadratic equation of the form 0=ax^2+bx+c has a real solution, where the user inputs a, b, and c. (Hint: For now the best way to square an integer `x` is `x*x`, as `x^2` will not evaluate correctly)
 
 ### Logical
 These operate on boolean values and evaluating them will also result in a boolean value:
@@ -246,7 +246,7 @@ These operate on boolean values and evaluating them will also result in a boolea
 |true|`false`|
 
 **Exercises**
-* Evaluate the following expressions (without actually writing any code) for when `a = true, b = false` and for when `a = true, b = true`:
+* Evaluate the following expressions (without actually writing any code) for when `boolean a = true, b = false` and for when `boolean a = true, b = true`:
   * `(a || b) && (!a || !b)`
   * `!(a && !b) || (!a && b)`
   * `!(a && b)`
@@ -287,7 +287,7 @@ The following are valid boolean expressions if `x` and `y` are numbers and `b` i
 
 **Exercises**
 * The XOR (exclusive-or) operator evaluates to be true if either A or B are true, but not both. Write an expression that is logically equivalent to "A XOR B" using the AND, OR, and NOT operators
-* Write a boolean expression to determine if at least 3 ranking points were earned by the red alliance in a match of *FIRST* Steamworks, given the scores of both the red and blue alliances, the number of gears delivered by the red alliance, and the number of high/low goals into the red boiler in autonomous/tele-op. Use appropriate identifiers for variables.
+* Write a boolean expression to determine if at least 3 ranking points were earned by the red alliance in a match of *FIRST* Steamworks, given the scores of both the red and blue alliances, the number of gears delivered by the red alliance, whether or not the reserve gear was used, and the number of high/low goals into the red boiler in autonomous/tele-op. Use appropriate identifiers for variables and declare multiple, intermediate boolean expressions as necessary.
 
 ## Conditionals
 A **conditional statement** is one that executes if a particular boolean expression is true.

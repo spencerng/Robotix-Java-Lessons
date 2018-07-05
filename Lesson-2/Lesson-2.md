@@ -11,22 +11,24 @@ Loops are used to execute a **block** of code enclosed in a set of braces (`{}`)
     while(/*some boolean expression*/){
         //Execute code here multiple times as long as the expression is true
     }
-    
-For example, the following will print the numbers from 0 to 10 (inclusive):
 
-    int counter = 0;
+Remember that the boolean expression should become `false` at some point during the execution of the code in the loop. Otherwise, an **infinite loop** will be created.
+    
+For example, the following will print the numbers from 1 to 10 (inclusive):
+
+    int counter = 1;
     while(counter<=10){
       System.out.println(counter);
       counter++;
     }
 
-`do`-`while` loops may also be written. The main difference between these and `while` loops is that the boolean expression must be `true` at the end of the loop, not at the beginning. The following prints the numbers from 1 to 11 (inclusive):
+`do`-`while` loops may also be written. The main difference between these and `while` loops is that the boolean expression must be `true` at the end of the loop, not at the beginning. The following prints the numbers from 1 to 10 (inclusive):
 
     int counter = -1;
     do{
       counter++;
       System.out.println(counter);
-    }while(counter<=10);
+    }while(counter<10);
     
 
 ### `for` Loops
