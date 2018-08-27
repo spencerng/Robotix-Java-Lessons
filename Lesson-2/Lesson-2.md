@@ -3,7 +3,7 @@
 After a (probably pretty long) first lesson, let's explore a couple more features of Java and see what you can do with everything that you learned.
 
 ## Loops
-Loops are used to execute a **block** of code enclosed in a set of braces (`{}`) multiple times. The number of times a block executes depends on a boolean expression.
+Loops are used to execute a **block** of code enclosed in a set of braces (`{}`) multiple times. After all, computers are very good at doing the same thing over and over again! The number of times a block executes depends on a boolean expression.
 
 ### `while` Loops
 `while` loops execute as long as a boolean expression is `true`. It may not execute at all if the expression is `false` before entering the loop.
@@ -66,10 +66,69 @@ Loops may also be placed inside each other. For example, executing
     
 will print a (poorly formatted) times table.
 
+Note that all three parts of a `for` loop are optional. That is, a loop like
+
+    for(;;) {
+        //something
+    }
+    
+will execute forever.
+
+**Questions**
+
+Determine the number of times the following `for` loops will execute.
+
+1. `for (int i = 4; i <=8; i += 2) { /*do something*/ }`
+2. `for (int i = 10; i >= 0; i -= 3) { /*do something*/ }`
+3. `for (int j = 2; j >= 4; j++) { /*do something*/ }`
+
 **Exercises**
 * Write a program that computes the sum of all odd integers from 1 to a number specified by the user
 * Write a program that computes b^e (a number raised to the power of an exponent), where `b` and `e` are positive integers
 * Write a program that allows the user to enter a number, `setSize`. `setSize` numbers, `num`, follow and are inputted by the user. Print the average, largest, and smallest of the numbers.
+
+### Loop Control
+
+There are two **control statements** that are used with loops:
+
+#### `break`
+
+The `break` statement will immediately exit a `while` or `for` loop. This can be useful if you're looking for a specific value, and you want the loop to end after you've found that value. For instance, in the below example, the loop will terminate immediately after the value `key` is found:
+
+    int key = 8;
+    for (int i = 0; i < 64; i++) {
+      if (i == key) {
+        System.out.println("Found");
+        break;
+      }
+      System.out.println("Not found...");
+    }
+
+As a result, `Not found...` will be printed out eight times at first, followed by `Found`. The loop will then terminate. The `break` statement will be more useful after you learn about arrays.
+
+#### `continue`
+
+The `continue` statement will immediately go to the next iteration of a `for` or `while` loop, bypassing all statements after it. This could be used when you only want to execute a loop for some values. Of course, an `if`-`else` statement can often accomplish the same thing, but `break` and `continue` statements can prevent too many nested blocks of code.
+
+For instance, the following block of code
+
+    for (int i = 0; i < 4; i++) {
+      System.out.println("Going... " + i);
+      if (i >= 2) {
+        continue;
+      }
+      System.out.println("Here");
+    }
+    
+will print 
+
+    Going... 0
+    Here
+    Going... 1
+    Here
+    Going... 2
+    Going... 3
+    
 
 ## Characters
 
