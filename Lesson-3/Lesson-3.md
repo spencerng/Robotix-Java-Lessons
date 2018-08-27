@@ -4,7 +4,7 @@ Here's a short lesson on one of the building blocks of Java that will prepare yo
 
 ## Method signature
 
-A method is essentially a function, very similar to one that you would encounter in math class. It has an input, an output, and a name (or identifier), though these must have specific data types (think a limited domain/range). Here is a sample method (`isEven`) being declared within a class:
+A method (also known as a function in other languages) is essentially a function, very similar to one that you would encounter in math class. It has an input, an output, and a name (or identifier), though these must have specific data types (think a limited domain/range). Here is a sample method (`isEven`) being declared within a class:
 
     public class Example{
 
@@ -91,7 +91,7 @@ Depending on the datatypes of the parameters when you make the method call, the 
 
 ## Recursion
 
-Like in math, methods can call themselves or other methods within the body of their code. For instance, the following returns the `n`th Fibonacci number:
+Like in math, methods can call themselves or other methods within the body of their code. For instance, the following returns the `n`th [Fibonacci number](https://en.wikipedia.org/wiki/Fibonacci_number) (1, 1, 2, 3, 5, ...):
 
     int fib(int n){
         if(n==1)
@@ -101,17 +101,17 @@ Like in math, methods can call themselves or other methods within the body of th
         return fib(n-1)+fib(n-2);
     }
 
-Recursion is useful for creating simple methods, but their running time can sometimes be slow, and you must always ensure that you reach a base case (`n==1` or `n==2` in this example). Refer to the binary search method if you want to see a more complex example of recursion.
+Recursion is useful for creating simple methods, but their running time can sometimes be slow, and you must always ensure that you reach a **base case** (`n==1` or `n==2` in this example) that returns a literal value. Refer to the binary search method if you want to see a more complex example of recursion.
 
 ## Algorithmic challenges
 
 Do as many as you want, until you get a good feel of when to implement methods and how to break down a problem:
 
-1. Write a recursive method to compute the factorial of a number. Note that 0! is equal to 1.
+1. Write a recursive method to compute the [factorial](https://en.wikipedia.org/wiki/Factorial) of a number. Note that 0! is equal to 1.
 
-2. Write a program that takes any English sentence without punctuation as an input, then converts it to Pig Latin.
+2. Write a program that takes any English sentence without punctuation as an input, then converts it to [Pig Latin](https://en.wikipedia.org/wiki/Pig_Latin).
 
-3. Implement a more efficient (non-recursive) algorithm to find the n^(th) Fibonacci number
+3. Implement a more efficient (non-recursive) algorithm to find the `n`th Fibonacci number
 
 4. Determine the sum of all prime numbers from 2 to a number specified by the user.
 
@@ -125,4 +125,4 @@ Do as many as you want, until you get a good feel of when to implement methods a
 
 9. Write a program to determine if a *number* is a palindrome.
 
-10. Design a text interface version of the game [Mastermind](https://en.wikipedia.org/wiki/Mastermind_\(board_game\)), playable by two people.
+10. Write methods that compute the [least common multiple](https://en.wikipedia.org/wiki/Least_common_multiple) and [greatest common factor](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two positive integers.
