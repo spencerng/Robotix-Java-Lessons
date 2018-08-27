@@ -264,6 +264,7 @@ For these examples, we will declare `double a = 4.5, b = -2.5`;
 * `Math.pow(a-0.5,-b+0.5)`: takes the first number to the power of the second number, returns `125.0` in the example
 * `Math.sqrt(a-0.5)`: takes the square root of a number, returns `2.0` in this example
 * `Math.PI`: returns the value of pi (3.141592653589793)
+* `Math.random()`: returns a random `double` in the interval \[0.0, 1.0). This can be used to generate a random integer within a particular range by clamping the number down, then **casting** it to an `int`. For example, if you want a random integer in the interval \[`lower`, `upper`], you would declare `int randInt = (int) (Math.random() * (upper-lower)) + lower;`. Try it out!
 
 **Exercises**
 * Write a program that solves quadratic equations of the form 0=ax^2+bx+c for x, where a, b, and c are coefficients given by the user
