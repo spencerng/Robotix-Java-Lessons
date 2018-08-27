@@ -219,6 +219,36 @@ A standard way to parse through all of the characters of a string is with the fo
         //Do something here
     }
 
+### Substrings
+
+Suppose you want to return a slice of a string, known as a substring, such as the first letter four letters of `String s = "Raider Robotix";`. An easy-to-understand way would be to use string parsing, similar to what we did above:
+
+    String s = "Raider Robotix";
+    String result = ""; // an empty string
+    for(int i = 0; i < 4 && i < s.length(); i++){
+        result += s.charAt(i);
+    }
+    System.out.println(result);
+    
+This would print out `Raid`. Note that the expression `i < s.length()` was still present in the exit condition in order to prevent errors if `s` was an input string that was less than four characters long.
+
+However, a faster way to get `result` would be to use the `substring(beginIndex, endIndex)` method, in which `beginIndex` and `endIndex` are integers that represent the indicies that you want to search. Similar to the `for` loop above, `beginIndex` is inclusive, while `endIndex` is exclusive. Here are some examples:
+
+ * `s.substring(0, 4);` returns `Raid`
+ * `s.substring(7, s.length());` returns `Robotix`
+ * `"hamburger".substring(4, 8);` returns `urge`
+
+### Miscellaneous String Functions
+
+Assume that `String s = "Hello";` is declared in the following examples:
+
+* `s.toLowerCase();` returns `hello`
+* `s.toUpperCase();` returns `HELLO`
+* `s.indexOf("l");` returns `2` (the first occurence of `l` in `s`), while `s.lastIndexOf("l")` returns `3`
+* `s.concat("world");` returns `Helloworld`
+
+As mentioned before, string equality is checked with `s.equals("Hello");`, which would return `true`. On the other hand, after declaring `String anotherString = "Hello";`, the boolean expression `s == anotherString || s == "Hello"` would be `false`, as string are *objects*, not *primitives*.
+
 **Exercises**
 * Write a program to reverse a string if it has an R in it.
 * Write a program to check if a string is a palindrome (reads the same backward as forward, such as racecar)
