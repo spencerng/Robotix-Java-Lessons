@@ -1,0 +1,31 @@
+site_name: Raider Robotix Java
+site_url: https://spencerng.net/Robotix-Java-Lessons
+site_description: Learn Java for FRC
+site_author: Spencer Ng
+
+repo_url: https://github.com/spencerng/Robotix-Java-Lessons
+edit_uri: ""
+
+nav:
+    - Home: README.md
+    - Lessons:
+        - Lesson 1: Lesson-1/Lesson-1.md
+        - Lesson 2: Lesson-2/Lesson-2.md
+    - About:
+        - Release Notes: about/release-notes.md
+        - Contributing: about/contributing.md
+        - License: about/license.md
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+    - admonition
+    - def_list
+
+
+copyright: Copyright &copy; 2018 Spencer Ng. All rights reserved.
+
+plugins:
+    - search
