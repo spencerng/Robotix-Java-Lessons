@@ -126,3 +126,5 @@ Do as many as you want, until you get a good feel of when to implement methods a
 9. Write a program to determine if a *number* is a palindrome.
 
 10. Write methods that compute the [least common multiple](https://en.wikipedia.org/wiki/Least_common_multiple) and [greatest common factor](https://en.wikipedia.org/wiki/Greatest_common_divisor) of two positive integers.
+
+Please email or DM me via Slack any challenges that you finish for feedback!
