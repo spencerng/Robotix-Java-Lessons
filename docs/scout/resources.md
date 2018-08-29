@@ -1,4 +1,4 @@
-## *FIRST* Power Up Resources
+# *FIRST* Power Up Resources
 
 Here are some useful links for this year's game:
 

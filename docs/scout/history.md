@@ -1,4 +1,4 @@
-## Scouting History
+# Scouting History
 
 Here's a chronology of the team's scouting history, starting from the most recent season:
 

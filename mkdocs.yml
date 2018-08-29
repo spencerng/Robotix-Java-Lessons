@@ -1,9 +1,9 @@
 site_name: Raider Robotix Scouting
-site_url: https://spencerng.net/Robotix-Java-Lessons
+site_url: https://spencerng.net/raider-robotix-scouting
 site_description: The hub for everything scouting on Team 25
 site_author: Raider Robotix
 
-pages:
+nav:
   - Scouts:
     - "Scout Standings": scout/standings.md
     - "Game Resources": scout/resources.md
@@ -37,7 +37,7 @@ pages:
       - "Lesson 2: GUI Components": develop/android/L2.md
       - "Lesson 3: UX Design": develop/android/L3.md
       - "Lesson 4: Advanced Techniques": develop/android/L4.md
-    - Scouting System Maintenance:
+    - System Maintenance:
       - "Lesson 1: The Scouting App": develop/maintain/L1.md
       - "Lesson 2: The Scouting Client":  develop/maintain/L2.md
       - "Lesson 3: The Blue Alliance Library":  develop/maintain/L3.md

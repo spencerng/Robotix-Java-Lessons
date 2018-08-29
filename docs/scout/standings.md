@@ -1,4 +1,4 @@
-## Scout Standings
+# Scout Standings
 
 Here are the scouting standings for the 2018 season, *FIRST* Power Up:
 

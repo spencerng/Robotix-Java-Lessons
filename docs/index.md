@@ -1,4 +1,4 @@
-## Raider Robotix Scouting
+# Raider Robotix Scouting
 
 Welcome to the hub for Raider Robotix Scouting! Here you'll find the latest info from the Scouting Subteam, from app programming and scout training resources, to scouting rotations and standings for the current season. Of course, [click here](http://raiderrobotix.org) to visit the team website.
 
