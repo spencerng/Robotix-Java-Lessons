@@ -3,7 +3,7 @@ site_url: https://spencerng.net/Robotix-Java-Lessons
 site_description: The hub for everything scouting on Team 25
 site_author: Raider Robotix
 
-nav:
+pages:
   - Scouts:
     - "Scout Standings": scout/standings.md
     - "Game Resources": scout/resources.md
