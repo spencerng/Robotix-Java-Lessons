@@ -13,7 +13,7 @@
         <meta name="description" content="The hub for everything scouting on Team 25">
       
       
-        <link rel="canonical" href="https://spencerng.net/Robotix-Java-Lessons/lead/manage/L4/">
+        <link rel="canonical" href="https://spencerng.net/raider-robotix-scouting/lead/manage/L4/">
       
       
         <meta name="author" content="Raider Robotix">
@@ -81,7 +81,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="../../../#lesson-4-object-orientated-design" tabindex="1" class="md-skip">
+      <a href="../../../#lesson-4-traveling" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -90,7 +90,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="https://spencerng.net/Robotix-Java-Lessons" title="Raider Robotix Scouting" class="md-header-nav__button md-logo">
+        <a href="https://spencerng.net/raider-robotix-scouting" title="Raider Robotix Scouting" class="md-header-nav__button md-logo">
           
             <img src="../../../img/logo.png" width="24" height="24">
           
@@ -162,7 +162,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="https://spencerng.net/Robotix-Java-Lessons" title="Raider Robotix Scouting" class="md-nav__button md-logo">
+    <a href="https://spencerng.net/raider-robotix-scouting" title="Raider Robotix Scouting" class="md-nav__button md-logo">
       
         <img src="../../../img/logo.png" width="48" height="48">
       
@@ -645,11 +645,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-5" type="checkbox" id="nav-2-5">
     
     <label class="md-nav__link" for="nav-2-5">
-      Scouting System Maintenance
+      System Maintenance
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
       <label class="md-nav__title" for="nav-2-5">
-        Scouting System Maintenance
+        System Maintenance
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -991,50 +991,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#why-objects" title="Why objects?" class="md-nav__link">
-    Why objects?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#constructors-and-member-variables" title="Constructors and member variables" class="md-nav__link">
-    Constructors and member variables
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#declaring-objects" title="Declaring objects" class="md-nav__link">
-    Declaring objects
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#class-methods" title="Class methods" class="md-nav__link">
-    Class methods
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#visibility" title="Visibility" class="md-nav__link">
-    Visibility
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scope" title="Scope" class="md-nav__link">
-    Scope
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hw-modeling-bank-accounts" title="HW: Modeling Bank Accounts" class="md-nav__link">
-    HW: Modeling Bank Accounts
+  <a href="#tips" title="Tips" class="md-nav__link">
+    Tips
   </a>
   
 </li>
@@ -1153,50 +1111,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#why-objects" title="Why objects?" class="md-nav__link">
-    Why objects?
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#constructors-and-member-variables" title="Constructors and member variables" class="md-nav__link">
-    Constructors and member variables
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#declaring-objects" title="Declaring objects" class="md-nav__link">
-    Declaring objects
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#class-methods" title="Class methods" class="md-nav__link">
-    Class methods
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#visibility" title="Visibility" class="md-nav__link">
-    Visibility
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scope" title="Scope" class="md-nav__link">
-    Scope
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hw-modeling-bank-accounts" title="HW: Modeling Bank Accounts" class="md-nav__link">
-    HW: Modeling Bank Accounts
+  <a href="#tips" title="Tips" class="md-nav__link">
+    Tips
   </a>
   
 </li>
@@ -1218,239 +1134,8 @@
               
                 
                 
-                <h1 id="lesson-4-object-orientated-design">Lesson 4 - Object Orientated Design</h1>
-<p>We explored <code class="codehilite"><span class="n">String</span></code>s in previous lessons, which was your first look at an object in Java. In fact, you've been writing programs inside of a <code class="codehilite"><span class="n">main</span></code> function, which is a method inside a function! In this lesson, we'll see what an object really is and why they're so useful.</p>
-<h2 id="why-objects">Why objects?</h2>
-<p>Objects have both <strong>state</strong>, variables that remain constant until you modify them, and <strong>behavior</strong>, which are seen through callable methods that either feed your main method information about that object or operate on its state. As programmers, you need to design objects so that their state and behavior are appropriate for what you're trying to accomplish, while breaking down code into testable and understandable building blocks.</p>
-<p>It's probably easiest to think of an object like an object in the real world, such as a person or a dog. It could have states like a name, age, favorite color, and friends. Similarly, a <code class="codehilite"><span class="n">Person</span></code> object could have behaviors like befriending another person if they have the same favorite color, increasing its age every year, or saying its name. Objects may also want to keep some state variables <code class="codehilite"><span class="n">private</span></code>, such as a credit card number. These are just examples, but you'll see as we go about modeling a person in this lesson.</p>
-<p>In essence, objects make programming real-world mechanisms and representing real-world entities a lot easier. You could have a <code class="codehilite"><span class="n">Robot</span></code> object drive a certain distance, deposit and earn interest in a <code class="codehilite"><span class="n">BankAccount</span></code>, or read the state of an <code class="codehilite"><span class="n">Actuator</span></code> on a <code class="codehilite"><span class="n">Robot</span></code>.</p>
-<h2 id="constructors-and-member-variables">Constructors and member variables</h2>
-<p>A <code class="codehilite"><span class="k">class</span></code> is the blueprint behind an object, which is something you should already be familiar with from writing programs. Each class should generally be in its own <code class="codehilite"><span class="p">.</span><span class="n">java</span></code> file, called <code class="codehilite"><span class="n">ClassName</span><span class="p">.</span><span class="n">java</span></code>. It's possible to have multiple classes within a file, but we'll get to that later.</p>
-<p>Inside <code class="codehilite"><span class="n">Person</span><span class="p">.</span><span class="n">java</span></code>:</p>
-<div class="codehilite"><pre><span class="o">//</span><span class="n">Import</span> <span class="n">statements</span> <span class="n">come</span> <span class="n">first</span>
-<span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="p">;</span>
-
-<span class="n">public</span> <span class="k">class</span> <span class="nc">Person</span> <span class="p">{</span>
-
-    <span class="n">public</span> <span class="n">static</span> <span class="n">void</span> <span class="n">main</span><span class="p">(</span><span class="n">String</span><span class="p">[]</span> <span class="n">args</span><span class="p">){</span>
-        <span class="o">//</span><span class="n">do</span> <span class="n">stuff</span> <span class="n">here</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>This is probably what you're familiar with right now. Now, we'll add in some fields, called <strong>member variables</strong>, to the <code class="codehilite"><span class="n">Person</span></code> class that will help identify it:</p>
-<div class="codehilite"><pre><span class="n">public</span> <span class="n">class</span> <span class="n">Person</span> <span class="p">{</span>
-    <span class="n">String</span> <span class="n">name</span><span class="p">,</span> <span class="n">favoriteColor</span><span class="p">;</span>
-    <span class="kt">int</span> <span class="n">age</span><span class="p">,</span> <span class="n">numFriends</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>To initialize these attributes, we'll also need a <strong>constructor</strong>, which is essentially a method that returns an <strong>instance</strong> of that class while assigning values to as many member variables as you'd like.</p>
-<div class="codehilite"><pre><span class="n">public</span> <span class="n">class</span> <span class="n">Person</span><span class="p">{</span>
-    <span class="n">String</span> <span class="n">name</span><span class="p">,</span> <span class="n">favoriteColor</span><span class="p">;</span>
-    <span class="kt">int</span> <span class="n">age</span><span class="p">,</span> <span class="n">numFriends</span><span class="p">;</span>
-
-    <span class="n">public</span> <span class="nf">Person</span><span class="p">(</span><span class="n">String</span> <span class="n">name</span><span class="p">){</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">numFriends</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>Note that the identifier for a constructor is simply the name of the class, though the parameters can be any datatype, and there is no <code class="codehilite"><span class="k">return</span></code> statement. Like other methods, constructors can also be overloaded with arguments of different datatypes. An <strong>empty constructor</strong> is automatically created if no constructor is declared for a class, which simply doesn't set any member variables.</p>
-<p>To access member variables, we use the keyword <code class="codehilite"><span class="n">this</span></code>, referring to the new instance of the object, followed by the <strong>dot operator</strong> and the identifiers of the variables you want to modify. This also distinguishes the <code class="codehilite"><span class="n">name</span></code> variable in the parameter of the constructor with the <code class="codehilite"><span class="n">name</span></code> variable that's part of the object's state.</p>
-<p>Member variables must be assigned a value, either explicitly through the code of the class or via a constructor, before their value can be accessed. They can also either be objects or primitive values.</p>
-<h2 id="declaring-objects">Declaring objects</h2>
-<p>So, how exactly do you create an object with the constructor? Well, it's similar to declaring any other variable in Java, complete with a datatype and identifier, except you'll need to use the <code class="codehilite"><span class="n">new</span></code> keyword:</p>
-<div class="codehilite"><pre><span class="n">public</span> <span class="k">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="p">[]</span> <span class="n">args</span><span class="p">){</span>
-    <span class="n">Person</span> <span class="n">mentor</span> <span class="o">=</span> <span class="n">new</span> <span class="n">Person</span><span class="p">(</span><span class="s">&quot;Cokeley&quot;</span><span class="p">);</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>This creates an instance of a <code class="codehilite"><span class="n">Person</span></code>, which is stored in <code class="codehilite"><span class="n">mentor</span></code>. Now, if you want to access or modify attributes of <code class="codehilite"><span class="n">mentor</span></code>, you'll use the same dot operator that was used in the constructor:</p>
-<div class="codehilite"><pre><span class="n">mentor</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="mi">25</span><span class="p">;</span>
-<span class="n">System</span><span class="p">.</span><span class="n">out</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">mentor</span><span class="p">.</span><span class="n">name</span> <span class="o">+</span> <span class="s">&quot; is &quot;</span> <span class="o">+</span> <span class="n">mentor</span><span class="p">.</span><span class="n">age</span> <span class="o">+</span> <span class="s">&quot; years old&quot;</span><span class="p">);</span>
-</pre></div>
-
-
-<p>This will print out <code class="codehilite"><span class="n">Cokeley</span> <span class="n">is</span> <span class="mi">25</span> <span class="n">years</span> <span class="n">old</span></code>.</p>
-<h2 id="class-methods">Class methods</h2>
-<p>While having objects as a simple <strong>data structure</strong> with various attributes is useful, sometimes you want a little more interactivity. That's when we can create our own methods in a class. We can spice up the <code class="codehilite"><span class="n">Person</span></code> class by adding in the following:</p>
-<div class="codehilite"><pre><span class="n">public</span> <span class="n">class</span> <span class="n">Person</span><span class="p">{</span>
-    <span class="n">String</span> <span class="n">name</span><span class="p">,</span> <span class="n">favoriteColor</span><span class="p">;</span>
-    <span class="kt">int</span> <span class="n">age</span><span class="p">,</span> <span class="n">numFriends</span><span class="p">;</span>
-
-    <span class="n">public</span> <span class="nf">Person</span><span class="p">(</span><span class="n">String</span> <span class="n">name</span><span class="p">){</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">numFriends</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="n">boolean</span> <span class="nf">makeFriends</span><span class="p">(</span><span class="n">Person</span> <span class="n">possibleFriend</span><span class="p">){</span>
-        <span class="k">if</span><span class="p">(</span><span class="n">possibleFriend</span><span class="p">.</span><span class="n">favoriteColor</span><span class="p">.</span><span class="n">equals</span><span class="p">(</span><span class="n">this</span><span class="p">.</span><span class="n">favoriteColor</span><span class="p">)){</span>
-            <span class="n">this</span><span class="p">.</span><span class="n">numFriends</span><span class="o">++</span><span class="p">;</span>
-            <span class="n">possibleFriend</span><span class="p">.</span><span class="n">numFriends</span><span class="o">++</span><span class="p">;</span>
-            <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
-        <span class="p">}</span>
-        <span class="k">return</span> <span class="nb">false</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>This <code class="codehilite"><span class="n">makeFriends</span></code> method mutually has two people become friends if their <code class="codehilite"><span class="n">favoriteColor</span></code> is the same, then returns <code class="codehilite"><span class="nb">true</span></code> if they've become friends, or false otherwise. Another example can be seen with this <code class="codehilite"><span class="n">RightTriangle</span></code> class:</p>
-<div class="codehilite"><pre><span class="k">class</span> <span class="n">RightTriangle</span>{
-    <span class="n">double</span> <span class="n">legOne</span>, <span class="n">legTwo</span>, <span class="n">hypotenuse</span>;
-
-    <span class="n">RightTriangle</span>(<span class="n">double</span> <span class="n">side1</span>, <span class="n">double</span> <span class="n">side2</span>, <span class="n">double</span> <span class="n">side3</span>){
-        <span class="n">this</span>.<span class="n">hypotenuse</span> = <span class="n">Math</span>.<span class="nb">max</span>(<span class="n">Math</span>.<span class="nb">max</span>(<span class="n">side1</span>, <span class="n">side2</span>), <span class="n">side3</span>);
-        <span class="n">this</span>.<span class="n">legOne</span> = <span class="n">Math</span>.<span class="nb">min</span>(<span class="n">Math</span>.<span class="nb">min</span>(<span class="n">side1</span>, <span class="n">side2</span>), <span class="n">side3</span>);
-        <span class="n">this</span>.<span class="n">legTwo</span> = <span class="n">side1</span> + <span class="n">side2</span> + <span class="n">side3</span> - <span class="n">this</span>.<span class="n">legOne</span> - <span class="n">this</span>.<span class="n">hypotenuse</span>;
-    }
-
-    <span class="n">double</span> <span class="n">getArea</span>(){
-        <span class="k">return</span> <span class="mf">0.5</span> * <span class="n">this</span>.<span class="n">legOne</span> * <span class="n">this</span>.<span class="n">legTwo</span>;
-    }
-
-    <span class="n">double</span> <span class="n">getPerimeter</span>(){
-        <span class="k">return</span> <span class="n">this</span>.<span class="n">legOne</span> + <span class="n">this</span>.<span class="n">legTwo</span> + <span class="n">this</span>.<span class="n">hypotenuse</span>;
-    }
-
-    //<span class="n">Returns</span> <span class="n">smaller</span> <span class="n">acute</span> <span class="n">angle</span> <span class="n">in</span> <span class="n">radians</span>
-    <span class="n">double</span> <span class="n">getSmallerAngle</span>(){
-        <span class="k">return</span> <span class="n">Math</span>.<span class="nb">atan</span>(<span class="n">this</span>.<span class="n">legOne</span> / <span class="n">this</span>.<span class="n">legTwo</span>);
-    }
-
-    //<span class="n">Returns</span> <span class="n">larger</span> <span class="n">acute</span> <span class="n">angle</span> <span class="n">in</span> <span class="n">radians</span>
-    <span class="n">double</span> <span class="n">getLargerAngle</span>(){
-        <span class="k">return</span> <span class="n">Math</span>.<span class="n">PI</span><span class="o">/</span><span class="mi">2</span> - <span class="n">this</span>.<span class="n">getSmallerAngle</span>();
-    }
-
-    //<span class="n">Extends</span> <span class="n">the</span> <span class="n">length</span> <span class="k">of</span> <span class="n">the</span> <span class="n">shorter</span> <span class="o">leg</span> <span class="o">and</span>
-    //<span class="n">adjusts</span> <span class="n">the</span> <span class="n">length</span> <span class="k">of</span> <span class="n">the</span> <span class="n">hypotenuse</span> <span class="n">accordingly</span>
-    <span class="nb">void</span> <span class="n">extendLegOne</span>(<span class="n">double</span> <span class="n">newLength</span>){
-        <span class="k">if</span>(<span class="n">newLength</span> &gt; <span class="n">this</span>.<span class="n">legTwo</span>){
-            <span class="n">this</span>.<span class="n">legOne</span> = <span class="n">this</span>.<span class="n">legTwo</span>;
-            <span class="n">this</span>.<span class="n">legTwo</span> = <span class="n">newLength</span>;
-        }
-
-        <span class="k">else</span> <span class="n">this</span>.<span class="n">legOne</span> = <span class="n">newLength</span>;
-
-        <span class="n">this</span>.<span class="n">hypotenuse</span> = <span class="n">Math</span>.<span class="nb">sqrt</span>(<span class="n">Math</span>.<span class="n">pow</span>(<span class="n">this</span>.<span class="n">legOne</span>, <span class="mi">2</span>) + <span class="n">Math</span>.<span class="n">pow</span>(<span class="n">this</span>.<span class="n">legTwo</span>, <span class="mi">2</span>));
-    }
-
-}
-</pre></div>
-
-
-<p>Here, after initializing a <code class="codehilite"><span class="n">RightTriangle</span></code> object, we can use its different instance methods to get and modify its properties. For instance, executing the following in the <code class="codehilite"><span class="n">main</span></code> method</p>
-<div class="codehilite"><pre><span class="n">RightTriangle</span> <span class="n">tri</span> <span class="o">=</span> <span class="n">new</span> <span class="n">RightTriangle</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">);</span>
-<span class="n">System</span><span class="p">.</span><span class="n">out</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Perimeter: &quot;</span> <span class="o">+</span> <span class="n">tri</span><span class="p">.</span><span class="n">getPerimeter</span><span class="p">());</span>
-<span class="n">System</span><span class="p">.</span><span class="n">out</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Area: &quot;</span> <span class="o">+</span> <span class="n">tri</span><span class="p">.</span><span class="n">getArea</span><span class="p">());</span>
-<span class="n">System</span><span class="p">.</span><span class="n">out</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;Smaller Angle: &quot;</span> <span class="o">+</span> <span class="n">tri</span><span class="p">.</span><span class="n">getSmallestAngle</span><span class="p">()</span> <span class="o">+</span> <span class="s">&quot; rad&quot;</span><span class="p">);</span>
-<span class="n">tri</span><span class="p">.</span><span class="n">extendLegOne</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
-<span class="n">System</span><span class="p">.</span><span class="n">out</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;New Perimeter: &quot;</span> <span class="o">+</span> <span class="n">tri</span><span class="p">.</span><span class="n">getPerimeter</span><span class="p">());</span>
-</pre></div>
-
-
-<p>will print</p>
-<div class="codehilite"><pre><span class="n">Perimeter</span><span class="o">:</span> <span class="mf">12.0</span>
-<span class="n">Area</span><span class="o">:</span> <span class="mf">6.0</span>
-<span class="n">Smallest</span> <span class="n">Angle</span><span class="o">:</span> <span class="mf">0.6435011087932844</span> <span class="n">rad</span>
-<span class="n">New</span> <span class="n">Perimeter</span><span class="o">:</span> <span class="mf">24.77032961426901</span>
-</pre></div>
-
-
-<h2 id="visibility">Visibility</h2>
-<p>Sometimes it is desirable to reduce the access and visibility of object methods or instance variables. For example, you generally wouldn't want a <code class="codehilite"><span class="n">main</span></code> method to be able to change a <code class="codehilite"><span class="n">Person</span></code> object's <code class="codehilite"><span class="n">name</span></code> explicitly, or perhaps you want to modify a <code class="codehilite"><span class="n">BankAccount</span></code> object's balance only through withdrawal and deposit methods, each requiring a PIN code. In that case, it's best to leave member variables <code class="codehilite"><span class="n">private</span></code> instead of <code class="codehilite"><span class="n">public</span></code>. To do this, simply put the <strong>visibility modifier</strong> in front of the variable identifier, like so:</p>
-<div class="codehilite"><pre><span class="n">public</span> <span class="n">class</span> <span class="n">Person</span><span class="p">{</span>
-    <span class="n">private</span> <span class="n">String</span> <span class="n">name</span><span class="p">,</span> <span class="n">favoriteColor</span><span class="p">;</span>
-    <span class="n">private</span> <span class="kt">int</span> <span class="n">age</span><span class="p">,</span> <span class="n">numFriends</span><span class="p">;</span>
-
-    <span class="n">public</span> <span class="nf">Person</span><span class="p">(</span><span class="n">String</span> <span class="n">name</span><span class="p">){</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">numFriends</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>That way, <code class="codehilite"><span class="n">private</span></code> level access only allows those variables to be accessed and modified within the same class (such as within the constructor or other class methods). On the other hand, <code class="codehilite"><span class="n">public</span></code> level access allows all classes to modify a variable or call a method, while default access (not putting any modifier) only allows classes of the same package to access variables/methods. We'll get into packages later on, but just know that they're ways of grouping similar classes for now.</p>
-<p>So, how are we supposed to modify and access attributes like <code class="codehilite"><span class="n">favoriteColor</span></code> so the method <code class="codehilite"><span class="n">makeFriends</span></code> can still function properly? For the first case, we'll use a special type of method called a <strong>setter</strong>, while we create a <strong>getter</strong> to do the latter:</p>
-<div class="codehilite"><pre><span class="n">private</span> <span class="n">public</span> <span class="n">class</span> <span class="n">Person</span><span class="p">{</span>
-    <span class="n">private</span> <span class="n">String</span> <span class="n">name</span><span class="p">,</span> <span class="n">favoriteColor</span><span class="p">;</span>
-    <span class="n">private</span> <span class="kt">int</span> <span class="n">age</span><span class="p">,</span> <span class="n">numFriends</span><span class="p">;</span>
-
-    <span class="n">public</span> <span class="nf">Person</span><span class="p">(</span><span class="n">String</span> <span class="n">name</span><span class="p">){</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">age</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">numFriends</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="n">public</span> <span class="kt">void</span> <span class="nf">setFavoriteColor</span><span class="p">(</span><span class="n">String</span> <span class="n">favoriteColor</span><span class="p">){</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">favoriteColor</span> <span class="o">=</span> <span class="n">favoriteColor</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="n">public</span> <span class="n">String</span> <span class="nf">getFavoriteColor</span><span class="p">(){</span>
-        <span class="k">return</span> <span class="n">this</span><span class="p">.</span><span class="n">favoriteColor</span><span class="p">;</span>
-    <span class="p">}</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>It's pretty simple: a setter has an argument datatype that's the same as the member variable, sets the member variable, then returns nothing. Meanwhile, a getter has the same return type as the member variable, has no parameters, and simply returns the value of the member variable. In fact, these methods are so common (as it's good practice to set variables as <code class="codehilite"><span class="n">private</span></code>) that most IDEs (including Eclipse) have a way to automatically generate setters and getters for a class.</p>
-<p>Finally, <code class="codehilite"><span class="k">static</span></code> methods and variables are called directly on a class, rather than on an instance of a class. You've already seen examples of these in the <code class="codehilite"><span class="n">Math</span></code> class: the variable <code class="codehilite"><span class="n">Math</span><span class="p">.</span><span class="n">PI</span></code> and the method <code class="codehilite"><span class="n">Math</span><span class="p">.</span><span class="n">pow</span><span class="p">(</span><span class="n">base</span><span class="p">,</span><span class="n">exp</span><span class="p">)</span></code> can be called without declaring an instance of a <code class="codehilite"><span class="n">Math</span></code> object via the <code class="codehilite"><span class="n">new</span></code> keyword.</p>
-<p>It's important to note that <code class="codehilite"><span class="k">static</span></code> variables are shared by all instances of a given class (and thus can be used as temporary storage). Also, <code class="codehilite"><span class="k">static</span></code> methods cannot access non-<code class="codehilite"><span class="k">static</span></code> variables or methods. You can make a <code class="codehilite"><span class="k">static</span></code> method <code class="codehilite"><span class="n">private</span></code> or <code class="codehilite"><span class="n">public</span></code> by putting the visibility modifier in front of the word <code class="codehilite"><span class="k">static</span></code>, such as in <code class="codehilite"><span class="n">public</span> <span class="k">static</span> <span class="kt">void</span> <span class="n">main</span><span class="p">(</span><span class="n">String</span><span class="p">[]</span> <span class="n">args</span><span class="p">)</span></code>.</p>
-<h2 id="scope">Scope</h2>
-<p>Our last topic is something that we've used throughout this lesson without realizing it; variable identifiers often come in conflict with each other. In that case, which value do we use?</p>
-<p>The smallest scope is in a loop:</p>
-<div class="codehilite"><pre><span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
-    <span class="kt">double</span> <span class="n">area</span> <span class="o">=</span> <span class="n">Math</span><span class="p">.</span><span class="n">pow</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>In this case, both <code class="codehilite"><span class="n">i</span></code> and <code class="codehilite"><span class="n">area</span></code> have <strong>block scope</strong> and cannot be modified or accessed outside of the <code class="codehilite"><span class="k">for</span></code> loop. You'll see that a set of curly braces generally denotes scope. Note that variables with the identifier <code class="codehilite"><span class="n">i</span></code> or <code class="codehilite"><span class="n">area</span></code> cannot exist outside of the loop either.</p>
-<p>Next up are local variables, also known as <strong>method scope</strong>:</p>
-<div class="codehilite"><pre><span class="n">public</span> <span class="kt">void</span> <span class="nf">setSideLength</span><span class="p">(</span><span class="kt">int</span> <span class="n">sideLength</span><span class="p">){</span>
-        <span class="kt">double</span> <span class="n">squareArea</span> <span class="o">=</span> <span class="n">Math</span><span class="p">.</span><span class="n">pow</span><span class="p">(</span><span class="n">sideLength</span><span class="p">,</span> <span class="mi">2</span><span class="p">);</span>
-        <span class="n">this</span><span class="p">.</span><span class="n">sideLength</span> <span class="o">=</span> <span class="n">sideLength</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<p>Both <code class="codehilite"><span class="n">sideLength</span></code> and <code class="codehilite"><span class="n">squareArea</span></code> can be accessed/modified only within the method <code class="codehilite"><span class="n">setSideLength</span></code>. However, using the keyword <code class="codehilite"><span class="n">this</span></code> and the dot operator will refer to the member variable <code class="codehilite"><span class="n">sideLength</span></code> of the class, rather than the one passed in as an argument.</p>
-<p>All variables other than member variables cannot be accessed outside of a class, which then follow the visibility rules discussed before.</p>
-<h2 id="hw-modeling-bank-accounts">HW: Modeling Bank Accounts</h2>
-<p>We've discussed bank accounts throughout this lesson. Now it's time to implement one!</p>
-<p>Each <code class="codehilite"><span class="n">BankAccount</span></code> object has the following attributes, which should all be <code class="codehilite"><span class="n">private</span></code>:</p>
-<ul>
-<li><code class="codehilite"><span class="n">balance</span></code>: a <code class="codehilite"><span class="kt">double</span></code> indicating the amount of money in the bank account. Cannot be negative.</li>
-<li><code class="codehilite"><span class="n">pin</span></code>: a four-digit code that authenticates a user. May contain leading zeroes (i.e. 0000 is a valid PIN)</li>
-<li><code class="codehilite"><span class="n">name</span></code>: the name of the bank account owner</li>
-<li><code class="codehilite"><span class="n">interestRate</span></code>: the percent of interest earned by a user in a given year, shared across all bank accounts</li>
-<li><strong>Challenge</strong>: <code class="codehilite"><span class="n">id</span></code>: a random, five-digit code that's generated upon the creation of the bank account to identify it. Does not contain leading zeroes. You may want to refer back to the <code class="codehilite"><span class="n">Math</span><span class="p">.</span><span class="n">random</span></code> method from Lesson 2.</li>
-</ul>
-<p>Methods should be provided to do the following:</p>
-<ul>
-<li>Construct a <code class="codehilite"><span class="n">BankAccount</span></code> with a PIN, owner, and initial balance</li>
-<li><strong>Challenge</strong>: Construct a <code class="codehilite"><span class="n">BankAccount</span></code> with a PIN, owner, and initial balance of $0.00</li>
-<li>Get the <code class="codehilite"><span class="n">name</span></code> of the owner of an account</li>
-<li>Get the <code class="codehilite"><span class="n">id</span></code> of the account</li>
-<li>Change the PIN of the account, given the old PIN and the new PIN. Should return some form of feedback to determine if the PIN was successfully changed</li>
-<li>Withdraw money from an account, given its PIN and the amount desired. Should indicate if withdrawal was successful and should not allow it if the account doesn't have enough money</li>
-<li>Deposit a given amount of money into the account</li>
-<li>Earn interest for the year, based on the <code class="codehilite"><span class="n">interestRate</span></code></li>
-<li><strong>Challenge</strong>: Transfer money from one account to another, given another <code class="codehilite"><span class="n">BankAccount</span></code> object and its PIN</li>
-</ul>
-<p>You do <em>not</em> need to submit a <code class="codehilite"><span class="n">main</span></code> method as a <strong>driver</strong> for your class, though you will need to write one to test if your class works. Next lesson, you'll write one to complete specific tasks when you learn about arrays and <code class="codehilite"><span class="n">HashMaps</span></code> to create a network of bank accounts.</p>
-<p>Please email me your completed class or DM me via Slack.</p>
+                <h1 id="lesson-4-traveling">Lesson 4 - Traveling</h1>
+<h2 id="tips">Tips</h2>
                 
                   
                 
