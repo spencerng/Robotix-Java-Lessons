@@ -1,0 +1,97 @@
+site_name: Raider Robotix Scouting
+site_url: https://spencerng.net/Robotix-Java-Lessons
+site_description: The hub for everything scouting on Team 25
+site_author: Raider Robotix
+
+nav:
+  - Scouts:
+    - "Scout Standings": scout/standings.md
+    - "Game Resources": scout/resources.md
+    - "Assessments": scout/assessments.md
+    - "App Usage": scout/appusage.md
+    - "History": scout/history.md
+  - Developers:
+    - Open Source:
+      - "Lesson 1: What is Git?": develop/opensource/L1.md
+      - "Lesson 2: Collaboration": develop/opensource/L2.md
+      - "Lesson 3: Build Tools": develop/opensource/L3.md
+      - "Lesson 4: Documentation": develop/opensource/L4.md
+    - Java: 
+      - "Lesson 1: Intro to Java": develop/java/L1.md
+      - "Lesson 2: Loops, Strings, Math": develop/java/L2.md
+      - "Lesson 3: Methods": develop/java/L3.md
+      - "Lesson 4: Objects": develop/java/L4.md
+      - "Lesson 5: Arrays & Dictionaries": develop/java/L5.md
+      - "Lesson 6: Advanced Java": develop/java/L6.md
+      - "Lesson 7: Advanced OOP": develop/java/L7.md
+    - Miscellaneous:
+      - "Lesson 1: File I/O": develop/misc/L1.md
+      - "Lesson 2: JSON": develop/misc/L2.md
+      - "Lesson 3: HTTP": develop/misc/L3.md
+      - "Lesson 4: The Blue Alliance API": develop/misc/L4.md
+      - "Lesson 5: Java Swing": develop/misc/L5.md
+      - "Lesson 6: Regex": develop/misc/L6.md
+      - "Lesson 7: HTML & Javascript": develop/misc/L7.md
+    - Android:
+      - "Lesson 1: Intro to Android": develop/android/L1.md
+      - "Lesson 2: GUI Components": develop/android/L2.md
+      - "Lesson 3: UX Design": develop/android/L3.md
+      - "Lesson 4: Advanced Techniques": develop/android/L4.md
+    - Scouting System Maintenance:
+      - "Lesson 1: The Scouting App": develop/maintain/L1.md
+      - "Lesson 2: The Scouting Client":  develop/maintain/L2.md
+      - "Lesson 3: The Blue Alliance Library":  develop/maintain/L3.md
+  - Strategists:
+    - Game Strategy:
+      - "Lesson 1: Kickoff!":  strat/gamestrat/L1.md
+      - "Lesson 2: Metrics": strat/gamestrat/L2.md
+      - "Lesson 3: Pre-Scouting": strat/gamestrat/L3.md
+      - "Lesson 4: Competition!": strat/gamestrat/L4.md
+      - "Lesson 5: Picklisting": strat/gamestrat/L5.md
+    - Scouting System Usage:
+      - "Lesson 1: The Scouting App": strat/usage/L1.md
+      - "Lesson 2: The Scouting Client": strat/usage/L2.md
+      - "Lesson 3: Tableau": strat/usage/L3.md
+      - "Lesson 4: Excel": strat/usage/L4.md
+  - Leads: 
+    - "Scout Management":
+      - "Lesson 1: Pre-Season": lead/manage/L1.md
+      - "Lesson 2: Kickoff!": lead/manage/L2.md
+      - "Lesson 3: Competition": lead/manage/L3.md
+      - "Lesson 4: Traveling": lead/manage/L4.md
+    - "Scout Assessment": 
+      - "Lesson 1: Evaluation System": lead/assess/L1.md
+      - "Lesson 2: Theory": lead/assess/L2.md
+      - "Lesson 3: Week Zero": lead/assess/L3.md
+      - "Lesson 4: The Travel Team": lead/assess/L4.md
+
+copyright: Copyright &copy; 2018 Raider Robotix. All rights reserved.
+theme: 
+  name: material
+  favicon: 'img/favicon.png'
+  palette:
+    accent: 'yellow'
+  logo: 'img/logo.png'
+plugins:
+    - search
+extra_javascript:
+  - "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
+markdown_extensions:
+  - codehilite
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  
