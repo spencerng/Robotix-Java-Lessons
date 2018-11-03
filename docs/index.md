@@ -1,6 +1,6 @@
 # Raider Robotix Scouting
 
-Welcome to the hub for Raider Robotix Scouting! Here you'll find the latest info from the Scouting Subteam, from app programming and scout training resources, to scouting rotations and standings for the current season. Of course, [click here](http://raiderrobotix.org) to visit the team website.
+Welcome to the hub for Raider Robotix Scouting! Here you'll find the latest info from the Scouting Subteam, from app programming and scout training resources, to scouting rotations and standings for the current season. Of course, visit [the team website](http://raiderrobotix.org) for other information.
 
 This site will be hosted on the team's [GitHub repository](https://github.com/RaiderRobotix) in the future.
 
@@ -10,7 +10,7 @@ Here's a guide to everything on this site:
 
 ### For Scouts
 
-* [Standings](./scout/standings.md): view your standings for the season and learn about how you're scored
+* [Standings](./scout/standings.md): view your standings for the season and learn about how you're evaluated
 * [Game Resources](./scout/resources.md): explore resources for this year's game
 * [Assessments](./scout/assessments.md): take the theory and skill assessments for this year's game
 * [App Usage](./scout/appusage.md): learn how to use this year's scouting app
@@ -18,12 +18,8 @@ Here's a guide to everything on this site:
 
 ### For Developers
 
-* Open Source: learn about software development tools that are essential for working as a team and maintaining the scouting system.
-      - [Lesson 1: What is Git?](./develop/opensource/L1.md)
-      - [Lesson 2: Collaboration](./develop/opensource/L2.md)
-      - [Lesson 3: Build Tools](./develop/opensource/L3.md)
-      - [Lesson 4: Documentation](./develop/opensource/L4.md)
-* Java: learn the essentials of Java needed for Android development and to maintain the scouting system
+
+* Java: learn the essentials of Java for Android development and maintaining the scouting system
     - [Lesson 1: Intro to Java](./develop/java/L1.md)
     - [Lesson 2: Loops, Strings, Math](./develop/java/L2.md)
     - [Lesson 3: Methods](./develop/java/L3.md)
@@ -31,7 +27,12 @@ Here's a guide to everything on this site:
     - [Lesson 5: Arrays & Dictionaries](./develop/java/L5.md)
     - [Lesson 6: Advanced Java](./develop/java/L6.md)
     - [Lesson 7: Advanced OOP](./develop/java/L7.md)
-* Miscellaneous: assorted topics in computer science that are needed to work on parts of the scouting system or to maintain this site
+* Open source: learn about software development tools that are essential for working as a team and managing a project 
+      - [Lesson 1: What is Git?](./develop/opensource/L1.md)
+      - [Lesson 2: Collaboration](./develop/opensource/L2.md)
+      - [Lesson 3: Build Tools](./develop/opensource/L3.md)
+      - [Lesson 4: Documentation](./develop/opensource/L4.md)
+* Miscellaneous: assorted topics that are needed to work on parts of the scouting system or to maintain this site
     - [File I/O](./develop/misc/L1.md)
     - [JSON](./develop/misc/L2.md)
     - [HTTP](./develop/misc/L3.md)

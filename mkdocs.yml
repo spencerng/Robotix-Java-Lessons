@@ -1,5 +1,5 @@
 site_name: Raider Robotix Scouting
-site_url: https://spencerng.net/raider-robotix-scouting
+site_url: https://spencerng.me/raider-robotix-scouting
 site_description: The hub for everything scouting on Team 25
 site_author: Raider Robotix
 
@@ -11,11 +11,6 @@ nav:
     - "App Usage": scout/appusage.md
     - "History": scout/history.md
   - Developers:
-    - Open Source:
-      - "Lesson 1: What is Git?": develop/opensource/L1.md
-      - "Lesson 2: Collaboration": develop/opensource/L2.md
-      - "Lesson 3: Build Tools": develop/opensource/L3.md
-      - "Lesson 4: Documentation": develop/opensource/L4.md
     - Java: 
       - "Lesson 1: Intro to Java": develop/java/L1.md
       - "Lesson 2: Loops, Strings, Math": develop/java/L2.md
@@ -24,6 +19,11 @@ nav:
       - "Lesson 5: Arrays & Dictionaries": develop/java/L5.md
       - "Lesson 6: Advanced Java": develop/java/L6.md
       - "Lesson 7: Advanced OOP": develop/java/L7.md
+    - Open Source:
+      - "Lesson 1: What is Git?": develop/opensource/L1.md
+      - "Lesson 2: Collaboration": develop/opensource/L2.md
+      - "Lesson 3: Build Tools": develop/opensource/L3.md
+      - "Lesson 4: Documentation": develop/opensource/L4.md
     - Miscellaneous:
       - "Lesson 1: File I/O": develop/misc/L1.md
       - "Lesson 2: JSON": develop/misc/L2.md
@@ -65,7 +65,7 @@ nav:
       - "Lesson 3: Week Zero": lead/assess/L3.md
       - "Lesson 4: The Travel Team": lead/assess/L4.md
 
-copyright: Copyright &copy; 2018 Raider Robotix. All rights reserved.
+copyright: Copyright &copy; 2018 Raider Robotix. All rights reserved. | [Website Source](https://github.com/spencerng/raider-robotix-scouting)
 theme: 
   name: material
   favicon: 'img/favicon.png'
