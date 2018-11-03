@@ -1,6 +1,6 @@
 # Raider Robotix Scouting
 
-View the [Raider Robotix Scouting website].
+View the [Raider Robotix Scouting website](http://spencerng.me/raider-robotix-scouting).
 
 This repository provides a series of no-frills Java lessons that prepares students on [*FIRST* Robotics Competition Team 25 - Raider Robotix](http://www.raiderrobotix.org/) to program an FRC robot and the team's electronic scouting system.
 
