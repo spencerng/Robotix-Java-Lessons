@@ -40,11 +40,13 @@ Here's a guide to everything on this site:
     - [Java Swing](./develop/misc/L5.md)
     - [Regex](./develop/misc/L6.md)
     - [HTML & JavaScript](./develop/misc/L7.md)
+
 * Android: learn everything about Android that you'll need to work on the scouting app
     - [Lesson 1: Intro to Android](./develop/android/L1.md)
     - [Lesson 2: GUI Components](./develop/android/L2.md)
     - [Lesson 3: UX Design](./develop/android/L3.md)
     - [Lesson 4: Advanced Techniques](./develop/android/L4.md)
+    
 * Scouting System Maintenance: learn the necessary changes to the system between seasons
     - [Lesson 1: The Scouting App](./develop/maintain/L1.md)
     - [Lesson 2: The Scouting Client](./develop/maintain/L2.md)
@@ -53,11 +55,11 @@ Here's a guide to everything on this site:
 ### For Strategists:
 
 * Game Strategy: learn how to win competitions through strategy and the intersections between you, developers, and the drive team 
-    - [Lesson 1: Kickoff!](./strat/gamestrat/L1.md)
-    - [Lesson 2: Metrics](./strat/gamestrat/L2.md)
-    - [Lesson 3: Pre-Scouting](./strat/gamestrat/L3.md)
-    - [Lesson 4: Competition!](./strat/gamestrat/L4.md)
-    - [Lesson 5: Picklisting](./strat/gamestrat/L5.md)
+    - [Lesson 1: Kickoff & Metrics](./strat/gamestrat/L1.md)
+    - [Lesson 2: Pre-Scouting](./strat/gamestrat/L2.md)
+    - [Lesson 3: Competition!](./strat/gamestrat/L3.md)
+    - [Lesson 4: Picklisting](./strat/gamestrat/L4.md)
+    - [Lesson 5: Alliance Selection](./strat/gamestrat/L5.md)
 * Scouting System Usage: learn how to use the scouting system as an analysist
     - [Lesson 1: The Scouting App](./strat/usage/L1.md)
     - [Lesson 2: The Scouting Client](./strat/usage/L2.md)
@@ -66,11 +68,10 @@ Here's a guide to everything on this site:
 
 ### For Scouting Leads 
 
-- Scout Management: learn how to manage scouts throughout the year
+- Scout Management: learn how to manage the entire subteam throughout the year
     - [Lesson 1: Pre-Season](./lead/manage/L1.md)
     - [Lesson 2: Kickoff!](./lead/manage/L2.md)
-    - [Lesson 3: Competition](./lead/manage/L3.md)
-    - [Lesson 4: Traveling](./lead/manage/L4.md)
+    - [Lesson 3: Competition & Traveling](./lead/manage/L3.md)
 - Scout Assessment: learn how to assess scouts and form the travel team
     - [Lesson 1: Evaluation System](./lead/assess/L1.md)
     - [Lesson 2: Theory](./lead/assess/L2.md)

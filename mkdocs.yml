@@ -25,13 +25,13 @@ nav:
       - "Lesson 3: Build Tools": develop/opensource/L3.md
       - "Lesson 4: Documentation": develop/opensource/L4.md
     - Miscellaneous:
-      - "Lesson 1: File I/O": develop/misc/L1.md
-      - "Lesson 2: JSON": develop/misc/L2.md
-      - "Lesson 3: HTTP": develop/misc/L3.md
-      - "Lesson 4: The Blue Alliance API": develop/misc/L4.md
-      - "Lesson 5: Java Swing": develop/misc/L5.md
-      - "Lesson 6: Regex": develop/misc/L6.md
-      - "Lesson 7: HTML & Javascript": develop/misc/L7.md
+      - "File I/O": develop/misc/L1.md
+      - "JSON": develop/misc/L2.md
+      - "HTTP": develop/misc/L3.md
+      - "The Blue Alliance API": develop/misc/L4.md
+      - "Java Swing": develop/misc/L5.md
+      - "Regex": develop/misc/L6.md
+      - "HTML & JavaScript": develop/misc/L7.md
     - Android:
       - "Lesson 1: Intro to Android": develop/android/L1.md
       - "Lesson 2: GUI Components": develop/android/L2.md
@@ -43,11 +43,11 @@ nav:
       - "Lesson 3: The Blue Alliance Library":  develop/maintain/L3.md
   - Strategists:
     - Game Strategy:
-      - "Lesson 1: Kickoff!":  strat/gamestrat/L1.md
-      - "Lesson 2: Metrics": strat/gamestrat/L2.md
-      - "Lesson 3: Pre-Scouting": strat/gamestrat/L3.md
-      - "Lesson 4: Competition!": strat/gamestrat/L4.md
-      - "Lesson 5: Picklisting": strat/gamestrat/L5.md
+      - "Lesson 1: Kickoff & Metrics":  strat/gamestrat/L1.md
+      - "Lesson 2: Pre-Scouting": strat/gamestrat/L2.md
+      - "Lesson 3: Competition!": strat/gamestrat/L3.md
+      - "Lesson 4: Picklisting": strat/gamestrat/L4.md
+      - "Lesson 5: Alliance Selection": strat/gamestrat/L5.md
     - Scouting System Usage:
       - "Lesson 1: The Scouting App": strat/usage/L1.md
       - "Lesson 2: The Scouting Client": strat/usage/L2.md
@@ -57,15 +57,14 @@ nav:
     - "Scout Management":
       - "Lesson 1: Pre-Season": lead/manage/L1.md
       - "Lesson 2: Kickoff!": lead/manage/L2.md
-      - "Lesson 3: Competition": lead/manage/L3.md
-      - "Lesson 4: Traveling": lead/manage/L4.md
+      - "Lesson 3: Competition & Traveling": lead/manage/L3.md
     - "Scout Assessment": 
       - "Lesson 1: Evaluation System": lead/assess/L1.md
       - "Lesson 2: Theory": lead/assess/L2.md
       - "Lesson 3: Week Zero": lead/assess/L3.md
       - "Lesson 4: The Travel Team": lead/assess/L4.md
 
-copyright: Copyright &copy; 2018 Raider Robotix. All rights reserved. | [Website Source](https://github.com/spencerng/raider-robotix-scouting)
+copyright: Copyright &copy; 2018 Raider Robotix. All rights reserved.
 theme: 
   name: material
   favicon: 'img/favicon.png'
