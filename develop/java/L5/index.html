@@ -394,15 +394,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#printing" title="Printing" class="md-nav__link">
-    Printing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#modifying-elements" title="Modifying elements" class="md-nav__link">
-    Modifying elements
+  <a href="#accessing-values" title="Accessing values" class="md-nav__link">
+    Accessing values
   </a>
   
 </li>
@@ -417,11 +410,31 @@
     ArrayLists
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initialization_1" title="Initialization" class="md-nav__link">
+    Initialization
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#references" title="References" class="md-nav__link">
     References
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enhanced-for-loops" title="Enhanced for loops" class="md-nav__link">
+    Enhanced for loops
   </a>
   
 </li>
@@ -1195,15 +1208,8 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#printing" title="Printing" class="md-nav__link">
-    Printing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#modifying-elements" title="Modifying elements" class="md-nav__link">
-    Modifying elements
+  <a href="#accessing-values" title="Accessing values" class="md-nav__link">
+    Accessing values
   </a>
   
 </li>
@@ -1218,11 +1224,31 @@
     ArrayLists
   </a>
   
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initialization_1" title="Initialization" class="md-nav__link">
+    Initialization
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
   <a href="#references" title="References" class="md-nav__link">
     References
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enhanced-for-loops" title="Enhanced for loops" class="md-nav__link">
+    Enhanced for loops
   </a>
   
 </li>
@@ -1273,12 +1299,101 @@
                 
                 
                 <h1 id="lesson-5-arrays-dictionaries">Lesson 5 - Arrays &amp; Dictionaries</h1>
+<p>We've covered the basics of objects, and now we're getting a bit more abstract with two abstract (but very useful) data structures: arrays and dictionaries.</p>
 <h2 id="arrays">Arrays</h2>
+<p>Like a set in mathematics, arrays are an ordered list of a particular data type (primitives, objects, other arrays, etc.). They allow you to store and access data in a convenient way, without needed to declare a separate identifier for each variable. Follow along on an IDE as we explore how to use them:</p>
 <h3 id="initialization">Initialization</h3>
-<h3 id="printing">Printing</h3>
-<h3 id="modifying-elements">Modifying elements</h3>
+<p>There are two ways to declare an array of integers:</p>
+<div class="codehilite"><pre><span></span><span class="c1">// First method</span>
+<span class="kt">int</span> <span class="n">intArray</span><span class="o">[];</span>
+
+<span class="c1">// Second method</span>
+<span class="kt">int</span><span class="o">[]</span> <span class="n">intArray</span><span class="o">;</span>
+</pre></div>
+
+<p>Of course, <code class="codehilite">int</code> can be replaced with any other data type. However, when initializing an array, you'll also need to specify the maximum number of elements that it has:</p>
+<div class="codehilite"><pre><span></span><span class="kt">int</span> <span class="n">numElements</span> <span class="o">=</span> <span class="mi">25</span><span class="o">;</span>
+<span class="n">intArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">numElements</span><span class="o">];</span>
+<span class="kt">int</span> <span class="n">newIntArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">numElements</span> <span class="o">+</span> <span class="mi">200</span><span class="o">];</span>
+</pre></div>
+
+<p>When an array is initialized, all elements are set to <code class="codehilite">0</code>, <code class="codehilite">false</code>, or <code class="codehilite">null</code> at first, depending on the data type of the array. Alternatively, an array can be explicitly initialized with values:</p>
+<div class="codehilite"><pre><span></span><span class="kt">int</span><span class="o">[]</span> <span class="n">explicitArray</span> <span class="o">=</span> <span class="o">{</span><span class="mi">25</span><span class="o">,</span> <span class="mi">225</span><span class="o">,</span> <span class="mi">2225</span><span class="o">};</span>
+</pre></div>
+
+<h3 id="accessing-values">Accessing values</h3>
+<p>In Java (and most other languages), arrays are zero-indexed, which means that the first element of the array has an index of <code class="codehilite">0</code>, while the last element of the array has an index of <code class="codehilite">array.length - 1</code>. Individual elements are accessed by putting the index number in brackets next to the array's identifier. For example,</p>
+<div class="codehilite"><pre><span></span><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">explicitArray</span><span class="o">[</span><span class="mi">0</span><span class="o">]);</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">explicitArray</span><span class="o">[</span><span class="n">explicitArray</span><span class="o">.</span><span class="na">length</span> <span class="o">-</span> <span class="mi">1</span><span class="o">]);</span>
+<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">explicitArray</span><span class="o">[</span><span class="mi">2</span><span class="o">]);</span>
+</pre></div>
+
+<p>would output</p>
+<div class="codehilite"><pre><span></span>25
+2225
+2225
+</pre></div>
+
+<p>Using a <code class="codehilite">for</code> loop, you can access values by iterating through the indices of the array. For any array, a general model to input values would be:</p>
+<div class="codehilite"><pre><span></span><span class="n">Scanner</span> <span class="n">sc</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="o">(</span><span class="n">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+<span class="kt">int</span> <span class="n">size</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+
+<span class="kt">int</span><span class="o">[]</span> <span class="n">anArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">size</span><span class="o">];</span>
+
+<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">anArray</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+    <span class="n">anArray</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+<span class="o">}</span>
+</pre></div>
+
+<p>The same applies for objects; an <code class="codehilite">Person</code> array (see previous lesson) can be created as follows:</p>
+<div class="codehilite"><pre><span></span><span class="n">Person</span><span class="o">[]</span> <span class="n">personArray</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Person</span><span class="o">[</span><span class="n">size</span><span class="o">];</span>
+<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">personArray</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+    <span class="n">String</span> <span class="n">name</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="na">next</span><span class="o">();</span>
+    <span class="n">personArray</span><span class="o">[</span><span class="n">i</span><span class="o">]</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Person</span><span class="o">(</span><span class="n">name</span><span class="o">);</span>
+<span class="o">}</span>
+</pre></div>
+
+<p><strong>Check understanding</strong></p>
+<p>How would you print the contents of an integer array? In ascending order? In descending order?</p>
+<details><summary>View solution</summary><div class="codehilite"><pre><span></span><span class="c1">// Ascending order</span>
+<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">intArray</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">intArray</span><span class="o">[</span><span class="n">i</span><span class="o">]);</span>
+<span class="o">}</span>
+
+<span class="c1">//Descending order [solution 1]</span>
+<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="n">intArray</span><span class="o">.</span><span class="na">length</span> <span class="o">-</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">--){</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">intArray</span><span class="o">[</span><span class="n">i</span><span class="o">])</span>
+<span class="o">}</span>
+
+<span class="c1">//Descending order [solution 2]</span>
+<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">intArray</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">intArray</span><span class="o">[</span><span class="n">intArray</span><span class="o">.</span><span class="na">length</span> <span class="o">-</span> <span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="o">]);</span>
+<span class="o">}</span>
+</pre></div>
+</details><p><strong>Exercises</strong></p>
+<ul>
+<li>Given an integer array, compute the product of the first and last elements of the array</li>
+<li>Given an integer array, compute the average value of the in the array</li>
+<li>Given a string array, print the concatenation of the strings with even indices (hint: how would you modify the <code class="codehilite">for</code> loop to iterate through the desired values?)</li>
+<li>Find the maximum value in an integer array</li>
+<li>Modify an integer array such that all positive values are replaced with <code class="codehilite">1</code> and all negative values are replaced with <code class="codehilite">-1</code></li>
+</ul>
 <h2 id="arraylists"><code class="codehilite">ArrayList</code>s</h2>
+<p>While arrays in Java have a fixed size when they are initialized, ArrayLists are objects that allow for dynamically-sized arrays. This is useful when you do not know how many objects are in an array, such as match entries in the scouting app.</p>
+<h3 id="initialization_1">Initialization</h3>
+<p>The syntax for initializing or declaring a new ArrayList is very similar:</p>
+<div class="codehilite"><pre><span></span><span class="c1">//Just declaration</span>
+<span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">arrayList</span><span class="o">;</span>
+
+<span class="c1">//Initializing an empty ArrayList</span>
+<span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">emptyList</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;();</span>
+
+<span class="c1">//Initilizing an ArrayList with 25 elements</span>
+<span class="n">ArrayList</span><span class="o">&lt;</span><span class="n">Integer</span><span class="o">&gt;</span> <span class="n">thirdList</span> <span class="o">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="o">&lt;&gt;(</span><span class="mi">25</span><span class="o">);</span>
+</pre></div>
+
 <h2 id="references">References</h2>
+<h2 id="enhanced-for-loops">Enhanced <code class="codehilite">for</code> loops</h2>
 <h2 id="2d-arrays">2D Arrays</h2>
 <h2 id="enumerations">Enumerations</h2>
 <h2 id="hashmaps"><code class="codehilite">HashMap</code>s</h2>
